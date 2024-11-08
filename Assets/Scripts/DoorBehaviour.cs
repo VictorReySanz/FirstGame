@@ -11,7 +11,6 @@ public class DoorBehaviour : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-
         Open(isOpen);
     }
 
